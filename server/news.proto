@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+message Obj {
+    string id = 1;
+    string title = 2;
+    string body = 3;
+    string postImage = 4;
+}
+
+service NewsService {
+    rpc GetAllNews (Empty) returns (stream Obj) {}
+}
+
+message Empty {}
+
+message NewsList {
+   repeated Obj news = 1;
+}
