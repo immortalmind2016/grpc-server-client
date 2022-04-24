@@ -4,7 +4,7 @@ to get the list of news
 
 # Tools
 - NodeJS
-- GPRC
+- GRPC
 - PROTO
 
 # How to use
