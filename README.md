@@ -1,5 +1,5 @@
 # Description
-Demo project to use `gprc` to make remote procedure calls from the client to the server
+Demo project to use `grpc` to make remote procedure calls from the client to the server
 to get the list of news
 
 # Tools
